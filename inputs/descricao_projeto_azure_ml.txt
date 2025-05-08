@@ -1,0 +1,15 @@
+Projeto de Previsão de Vendas de Sorvete com Azure Machine Learning
+
+Este projeto tem como objetivo prever a quantidade de sorvetes vendidos com base na temperatura do dia. Utilizamos dados históricos contendo data, temperatura (°C) e quantidade vendida.
+
+Etapas principais:
+1. Carregamento dos dados históricos de vendas contidos na tabela.
+2. Análise exploratória para entender a correlação entre temperatura e vendas.
+3. Divisão dos dados em conjuntos de treino e teste.
+4. Treinamento de um modelo de regressão utilizando Azure Machine Learning.
+5. Avaliação do modelo com métricas como RMSE e R².
+6. Implantação do modelo como endpoint para previsões em tempo real.
+
+Os dados utilizados foram extraídos de um arquivo com 100 registros, contendo datas consecutivas a partir de janeiro de 2024.
+
+Este projeto demonstra como serviços em nuvem podem ser utilizados para implementar soluções inteligentes com base em dados históricos simples.
